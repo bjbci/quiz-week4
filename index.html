@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz homework</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+
+    <header>
+        <div class="flex-container">
+            <div class="high-score-box">
+                <h1>HIGH SCORE</h1>
+                <span id="high-score"></span>
+                <span id="display-high-score"></span>
+                <h3>CURRENT SCORE: </h3>
+                <span id="user-score"></span>
+                <h3>WINS: </h3>
+                <span id="wins"></span>
+                <h3>LOSSES: </h3>
+                <span id="losses"></span>
+            </div>
+        <p id="title"> BOOTCAMP QUIZ</p>
+        <div class="timer-box">
+                <h1>You have 2 minutes</h1>
+                <h2 id="counterseconds"></h2>
+                <h3></h3>
+                
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="checkered"></div>
+    <section class="page1">
+           
+            <div id="container">
+    </section>
+
+
+        <div class="page2">
+            <div id="quiz" style="display:none;">
+                <div id="question">
+                    <p>questions</p>
+                </div>
+
+                <div id="timer">
+                    <div id="counter">6</div>
+
+                    <div id="options">
+                        <div class="option" id="btnA">A</div>
+                        <div class="option" id="btnB">B</div>
+                        <div class="option" id="btnC">C</div>
+                        <div class="option" id="btnD">D</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+       
+
+        <section class="content">
+            <div id="question-box">
+                </div id="question-text">
+            </div>
+            <div id="ABCD">
+                <button type="button" id="btnStart">Start Test</button>
+                <button type="button" id="next-button">NEXT QUESTION</button>
+                <div id="start"></div>
+            </div>
+            <ul id="answers"></ul>
+            </div>
+            </div>
+            </div>
+
+            <div class="controls">
+                <button type="button" onclick="buttonReStart()" id="btnReStart">RESTART</button>
+                <button type="button" onclick="buttonSubmit()" id="btnSubmit">SUBMIT</button>
+                <button type="button" onclick="buttonClearScreen()" id="btnClrScr">CLEAR SCREEN</button>
+
+            </div>
+            </div>
+        </section>
+
+
+
+
+
+        <!--enter initials into submit box-->
+        </section>
+        <footer class="footer">
+
+        </footer>
+        <script src="./script.js"></script>
+    </main>
+</body>
+
+</html>
